@@ -1,7 +1,7 @@
 ---
 layout: page
-title: AutoPIM
-description: Near-memory computing for autonomous driving
+title: QuantumStack
+description: Postdock position
 img: #assets/img/12.jpg
 importance: 1
 category: work
