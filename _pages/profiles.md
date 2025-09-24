@@ -10,7 +10,7 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
-    image: prof_pic.jpg
+    image: no_pic512.png
     content: about_pedro.md
     image_circular: false # crops the image to make it circular
     more_info: >
@@ -19,7 +19,7 @@ profiles:
       <p>ppedro@chalmers.se</p>
       <p>Office</p>
   - align: left
-    image: prof_pic.jpg
+    image: no_pic512.png
     content: about_mo.md
     image_circular: false # crops the image to make it circular
     more_info: >
@@ -30,7 +30,7 @@ profiles:
     # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
-    image: prof_pic.jpg
+    image: no_pic512.png
     content: about_mateo.md
     image_circular: false # crops the image to make it circular
     more_info: >
@@ -39,7 +39,7 @@ profiles:
       <p>email</p>
       <p>Office</p>
   - align: left
-    image: prof_pic.jpg
+    image: no_pic128.png
     content: about_fareed.md
     image_circular: false # crops the image to make it circular
     more_info: >
@@ -50,7 +50,7 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
-    image: prof_pic.jpg
+    image: no_pic512.png
     content: about_alessio.md
     image_circular: false # crops the image to make it circular
     more_info: >
@@ -59,7 +59,7 @@ profiles:
       <p>email</p>
       <p>Office</p>
   - align: left
-    image: prof_pic.jpg
+    image: no_pic512.png
     content: about_luigi.md
     image_circular: false # crops the image to make it circular
     more_info: >

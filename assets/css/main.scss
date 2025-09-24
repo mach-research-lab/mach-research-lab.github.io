@@ -23,3 +23,10 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+
+/* About page profile pic */
+.profiles .profile-img {
+  width: 100;
+  height: 100px;
+}

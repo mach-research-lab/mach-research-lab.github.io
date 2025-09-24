@@ -4,7 +4,7 @@ title: QuantumStack
 description: Postdock position
 img: #assets/img/12.jpg
 importance: 1
-category: work
+category: Postdoc
 related_publications: true
 ---
 
