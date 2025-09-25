@@ -49,22 +49,24 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-meet-our-new-phd-andre",
+          title: 'Meet our new PhD, Andre!',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-new-postdoc-position-available-in-quantum-simulation-acceleration",
+          title: 'New Postdoc position available in quantum simulation acceleration!',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "projects-autopim",
+            },},{id: "projects-autopim",
           title: 'AutoPIM',
           description: "Near-memory computing for autonomous driving",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
+            },},{id: "projects-quantumstack",
+          title: 'QuantumStack',
+          description: "Postdock position",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_vacancy/";
             },},{id: "projects-vedliot",
           title: 'Vedliot',
           description: "Fareed",
