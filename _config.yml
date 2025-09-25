@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: 🚀 ACCELLERA LAB # the website title (if blank, full name will be used instead)
-first_name: Accellera
+first_name: ACCELLERA
 middle_name: 
-last_name: lab
+last_name: LAB
 contact_note: >
   Email Prof. Pedro Trancoso at ppedro@chalmers.se
 description: #> # the ">" symbol means to ignore newlines until "footer_text:"
@@ -16,7 +16,7 @@ footer_text:
   # Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: accelerators, quantum, fpga, computer architecture # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🚀 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://accelerators-chalmers.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
