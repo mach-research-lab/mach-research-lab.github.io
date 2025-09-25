@@ -8,7 +8,7 @@ nav_order: 3
 display_categories: [PhD,Postdoc,Master Thesis, Bachelor Thesis]
 horizontal: false
 ---
-If no open position is available, feel free to contac us anyway to: ppedro@chalmers.se
+If no open position is available, feel free to contact us anyway to: ppedro@chalmers.se.  
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
