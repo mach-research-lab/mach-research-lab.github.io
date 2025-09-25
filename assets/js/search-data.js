@@ -49,15 +49,15 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-meet-our-new-phd-andre",
-          title: 'Meet our new PhD, Andre!',
-          description: "",
-          section: "News",},{id: "news-new-postdoc-position-available-in-quantum-simulation-acceleration",
+            },},{id: "news-new-postdoc-position-available-in-quantum-simulation-acceleration",
           title: 'New Postdoc position available in quantum simulation acceleration!',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "projects-autopim",
+            },},{id: "news-meet-our-new-phd-andre",
+          title: 'Meet our new PhD, Andre!',
+          description: "",
+          section: "News",},{id: "projects-autopim",
           title: 'AutoPIM',
           description: "Near-memory computing for autonomous driving",
           section: "Projects",handler: () => {
