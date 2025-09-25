@@ -5,12 +5,12 @@ permalink: /vacancies/
 description: Our vacancies
 nav: true
 nav_order: 3
-display_categories: [PhD, Postdoc, Master Thesis, Bachelor Thesis]
+display_categories: [PhD,Postdoc,Master Thesis, Bachelor Thesis]
 horizontal: false
 ---
 
 <!-- pages/projects.md -->
-<div class="vacancies">
+<div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
