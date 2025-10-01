@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "accelerators-chalmers/accelerators-chalmers.github.io",
+    "data-repo": "machlab-chalmers/machlab-chalmers.github.io",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
