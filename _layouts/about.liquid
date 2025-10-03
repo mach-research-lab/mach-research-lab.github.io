@@ -16,13 +16,16 @@ layout: default
 
   <!-- Profile image (centered, scalable) -->
   {% if page.profile and page.profile.image %}
-    {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-    <div class="profile">
-      <img src="{{ profile_image_path | relative_url }}" alt="{{ page.profile.image }}" />
-      {% if page.profile.more_info %}
-        <div class="more-info">{{ page.profile.more_info }}</div>
-      {% endif %}
-    </div>
+  <div class="profile">
+    <img 
+      src="{{ 'assets/img/' | append: page.profile.image | relative_url }}" 
+      alt="{{ page.profile.image }}" 
+      loading="eager"
+    />
+    {% if page.profile.more_info %}
+      <div class="more-info">{{ page.profile.more_info }}</div>
+    {% endif %}
+  </div>
   {% endif %}
 
   <!-- Inline CSS for profile image (responsive, centered, keeps 4:3 ratio) -->
