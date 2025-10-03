@@ -28,7 +28,7 @@ layout: default
   <!-- Inline CSS for profile image (responsive, centered, keeps 4:3 ratio) -->
   <style>
     .post .profile {
-      ddisplay: flex;
+      display: flex;
       flex-direction: column;
       align-items: flex-start;  /* left-align everything */
       justify-content: flex-start;
@@ -37,23 +37,34 @@ layout: default
       width: 100%;
       margin: 2rem 0;
     }
+
     .post .profile img {
       display: block;
-      margin: 0 auto;
-      width: clamp(40vw, 70%, 100vw); /* adjust numbers to make bigger/smaller */
+      margin: 0;
+      width: clamp(40vw, 70%, 100vw);   /* base (for large screens) */
       max-width: 100%;
-      height: auto;                   /* preserves 4:3 aspect ratio */
+      height: auto;                     /* preserve 4:3 aspect ratio */
       object-fit: cover;
       border-radius: 0;
       transition: transform 0.2s ease;
     }
-    @media (max-width: 768px) {
+
+    /* 💻 Medium screens (like your 14" MacBook) → make image bigger */
+    @media (max-width: 1600px) and (min-width: 1000px) {
       .post .profile img {
-        width: clamp(60vw, 90%, 100vw);
+        width: clamp(55vw, 80%, 90vw);
       }
     }
+
+    /* 📱 Small screens (mobile/tablet) → biggest image */
+    @media (max-width: 768px) {
+      .post .profile img {
+        width: clamp(70vw, 90%, 100vw);
+      }
+    }
+
     .more-info {
-      text-align: center;
+      text-align: left;
       margin-top: 0.5rem;
       font-size: 0.95rem;
       color: #666;
