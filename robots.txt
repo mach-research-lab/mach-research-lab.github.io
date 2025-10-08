@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://machlab-chalmers.github.io/sitemap.xml
+Sitemap: https://mach-research-lab.github.io/sitemap.xml
