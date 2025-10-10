@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: 🚀 MACH LAB # the website title (if blank, full name will be used instead)
+title: MACH RESEARCH LAB # the website title (if blank, full name will be used instead)
 first_name: MACH
 middle_name: 
 last_name: RESEARCH LAB
@@ -16,7 +16,7 @@ footer_text:
   # Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: accelerators, quantum, fpga, computer architecture # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: mach-lab-icon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://mach-research-lab.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
