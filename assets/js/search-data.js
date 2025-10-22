@@ -62,11 +62,6 @@ ninja.data = [{
           description: "Near-memory computing for autonomous driving",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-quantumstack",
-          title: 'QuantumStack',
-          description: "Postdock position",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_vacancy/";
             },},{id: "projects-vedliot",
           title: 'Vedliot',
           description: "Fareed",
@@ -82,6 +77,11 @@ ninja.data = [{
           description: "European Processor Initiative",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
+            },},{id: "projects-quantumstack",
+          title: 'QuantumStack',
+          description: "Postdoc position",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/postdoc-qcs/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
