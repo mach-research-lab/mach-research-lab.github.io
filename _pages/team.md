@@ -6,8 +6,6 @@ description: Meet our team
 nav: true
 nav_order: 5
 
-[WIP]
-
 team:
 - name: Pedro Trancoso
   image: /assets/img/people/pedro_trancoso.jpg
@@ -24,4 +22,9 @@ team:
   description: >
     Senior PhD
 ---
+
+[WIP]
+
+
+
 
