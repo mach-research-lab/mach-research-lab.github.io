@@ -1,7 +1,7 @@
 ---
 layout: page
 title: QuantumStack
-description: Postdock position
+description: Postdoc position - Quantum Circuit Simulation
 img: #assets/img/12.jpg
 importance: 1
 category: Postdoc
