@@ -2,7 +2,7 @@
 layout: team
 permalink: /team/
 title: team
-description: Meet our team
+description: Meet our team <br> [WIP]
 nav: true
 nav_order: 5
 
